@@ -26,6 +26,8 @@ header {
     bottom: 22px;
     right: 8px;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.419);
+    padding-left: 30px;
+    min-height: 200px;
 }
 
 header > h1 {
@@ -37,9 +39,17 @@ header > h1 {
 }
 
 header > P {
-    text-align: center;
-    margin-top: 40px;
+    text-align: right;
+    margin-top: 30px;
     padding: 0px 57px 0px 0px;
+    min-width: 200px;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    right: 40px;
+    top: 60px;
 }
 
 button {
@@ -202,6 +212,10 @@ footer > strong {
 
 .img1 {
     width: 50%;
+}
+
+.lado {
+    margin-left: 30px;
 }
 
 /*feito por gabriel*/
