@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'titu';
+    src: url(BebasNeue-Regular.woff);
+}
+
+@font-face {
+    font-family: 'android';
+    src: url(Android.ttf);
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 232, 206);
+}
+
+strong {
+    color: #003f28;
+}
+
+header {
+    background-image: linear-gradient(to top, #025939, #027333, #03A63C);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 180px;
+    position: relative;
+    bottom: 22px;
+    right: 8px;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.419);
+}
+
+header > h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family: titu;
+    letter-spacing: 3px;
+}
+
+header > P {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #25025900;
+    border: none;
+    color: rgba(169, 255, 173, 0.8);
+    margin-top: -5px;
+}
+
+button:hover {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.322);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+span {
+    font-size: 17px;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    position: relative;
+    bottom: 42px;
+    padding: 0px 30px 5px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+
+.section1 > h1, h2 {
+    font-family: android;
+    text-indent: 20px;
+    position: relative;
+    top: 23px;
+    color:  #003924;
+    letter-spacing: 1px;
+}
+
+.section1 > p {
+    margin-top: 40px;
+}
+
+P {
+    font-family: arial;
+    text-indent: 50px;
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.section1 > h2, .section2 > h2 {
+    background-image: linear-gradient(90deg, rgb(138, 255, 144), rgb(255, 255, 255));
+}
+
+a {
+    text-decoration: none;
+    color:#003924;
+}
+a::after {
+    content: '\00A0\1F517';
+}
+
+a:hover {
+    text-decoration: underline;
+}
+svg {
+    position: relative;
+    top: 5px;
+}
+
+.mark1 {
+    background-color: #34ef7594;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.mark2 {
+    background-color: rgba(254, 177, 241, 0.8);
+}
+
+.goo {
+    margin-top: 40px;
+}
+
+.section2 > div {
+    text-align: center;
+}
+
+.div2 {
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+.div2 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%
+} 
+
+.h3 {
+    color: white;
+    font-family: arial;
+    background-color: #005636;
+    border-radius: 5px 5px 0px 0px;
+    height: 34px;
+    display: block;
+    width: 100%;
+    line-height: 34px;
+    text-indent: 20px ;
+    position: relative;
+    top: 19px;
+}
+
+aside {
+    background-color: #50fd8dd0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    padding: 0px 10px 0px 0px ;
+}
+
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: #003924;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    right: 8px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+footer > strong {
+    color: white;
+}
+
+.img1 {
+    width: 50%;
+}
+
+/*feito por gabriel*/
