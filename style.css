@@ -140,10 +140,12 @@ img {
 
 .div2 {
     background-color: #063d1e;
-    margin: 0px -20px 30px -20px;
+    margin: auto;
     padding: 20px;
     position: relative;
     padding-bottom: 59%;
+    width: 100%;
+    right: 10px;
 }
 
 .div2 > iframe {
