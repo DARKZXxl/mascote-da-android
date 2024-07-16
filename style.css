@@ -39,6 +39,7 @@ header > h1 {
 header > P {
     text-align: center;
     margin-top: 40px;
+    padding: 0px 57px 0px 0px;
 }
 
 button {
