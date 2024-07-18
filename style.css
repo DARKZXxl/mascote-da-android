@@ -8,6 +8,11 @@
     src: url(Android.ttf);
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     width: 100%;
     background-color: rgb(255, 232, 206);
@@ -35,23 +40,19 @@ header > h1 {
     position: relative;
     top: 20px;
     font-family: titu;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    padding: 10px;
 }
 
 header > P {
-    text-align: right;
     margin-top: 30px;
-    padding: 0px 57px 0px 0px;
-    min-width: 200px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
 }
 
 nav {
-    position: relative;
-    right: 40px;
-    top: 60px;
-    margin-left: 40px;
-    margin-top: -24px;
+    padding-left: 8px;
+    padding-top: 24px;
 
 }
 
@@ -100,7 +101,7 @@ main {
     margin-top: 40px;
 }
 
-P {
+main p {
     font-family: arial;
     text-indent: 50px;
     text-align: justify;
