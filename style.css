@@ -175,18 +175,21 @@ img {
     border-radius: 5px 5px 0px 0px;
     height: 34px;
     display: block;
-    width: 100%;
+    margin-top: 10px;
     line-height: 34px;
     text-indent: 20px ;
+    margin-left: 10.3px;
     position: relative;
-    top: 19px;
+    top: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
 aside {
     background-color: #50fd8dd0;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
     padding: 0px 10px 0px 0px ;
+    margin: 0px 0px 0px 10px;
 }
 
 ul {
@@ -221,7 +224,7 @@ footer > strong {
 }
 
 aside > .baixo {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 ul {
